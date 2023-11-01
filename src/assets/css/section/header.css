@@ -1,0 +1,23 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--subBg500);
+    padding: 1rem;
+}
+
+.header__logo {}
+
+.header__nav {}
+
+.header__nav li {
+    display: inline;
+}

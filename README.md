@@ -16,3 +16,25 @@
 ## 설치
 
 `npm run dev` 실행하기
+
+## 구현 기능
+
+- 구글 폰트 적용
+
+## 트러블 슈팅
+
+<details>
+<summary>git 업로드 버그</summary>
+
+<!-- summary 아래 한칸 공백 두어야함 -->
+
+## git 업로드 권한 버그(해결) :
+
+# 권한으로 인한 업로드 버그 해결
+
+윈도우 자격증명 > git 아이디 변경
+`git remote set-url origin https://github.com@audgns722/vite-project2023.git` > `git push -u origin master`
+깃헙 패스워드 입력을 하라는 창이 나오고 입력을 하시면 본인의 깃주소에 소스코드가 올라갑니다.
+인증이 끝난 후부터는 git push만 하면 기존의 세팅한 주소로 바로 푸쉬가 됩니다.1
+
+</details>
