@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 #intro {
     height: 100vh;
 }
@@ -20,13 +21,12 @@
 }
 
 .intro__title {
-    font-size: 10.9vw;
+    font-size: 7.2vw;
     text-transform: uppercase;
-    font-weight: 400;
-    font-family: "Grandiflora One";
+    font-weight: 700;
+    font-family: "Archivo Black";
     color: var(--mainFont-color);
     line-height: 1.1;
-    letter-spacing: 0.22vw;
 }
 
 .intro__lines {
@@ -38,33 +38,40 @@
     display: block;
     width: 100%;
     height: 1px;
-    background-color: var(--subBg500);
+    background-color: var(--subBg400);
     margin-bottom: 0.5vw;
 }
 .intro__lines .line:nth-child(1) {
+    background-color: #7c8eb4;    
     height: 1px;
 }
 .intro__lines .line:nth-child(2) {
+    background-color: #7282a5;
     height: 2px;
 }
 .intro__lines .line:nth-child(3) {
+    background-color: #677697;
     height: 3px;
 }
 .intro__lines .line:nth-child(4) {
+    background-color: #576481;
     height: 4px;
 }
 .intro__lines .line:nth-child(5) {
+    background-color: #55627e;
     height: 5px;
 }
 .intro__lines .line:nth-child(6) {
+    background-color: #4b5770;
     height: 6px;
 }
 .intro__lines .line:nth-child(7) {
+    background-color: #434d63;
     height: 7px;
 }
 
 .intro__text {
-    background-color: var(--subBg500);
+    background-color: var(--subBg400);
     height: 40vh;
     width: 100%;
     display: flex;
@@ -72,13 +79,13 @@
     justify-content: center;
 }
 .intro__text .text {
-    color: var(--white);
-    font-size: 3vw;
+    color: var(--mainFont-color);
+    font-size: 2.5vw;
     line-height: 1.3;
     text-decoration: 0.5px dashed underline;
     text-underline-position: under;
     text-align: center;
-    font-family: "Bungee Hairline";
+    font-family: "Archivo Black";
     text-transform: uppercase;
     z-index: 2;
 }
