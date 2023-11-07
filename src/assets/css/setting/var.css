@@ -11,13 +11,25 @@
     --subBg400 : #373f51;
     --subBg500 : #252529;
 
+    --sub2Bg100 : #4d4973;
+    --sub2Bg200 : #5b68a4;
+    --sub2Bg300 : #8296b9;
+    --sub2Bg400 : #b8cae0;
+
+
     --white : #ffffff;
+    --white100 : #d8d8d8;
+    --white200 : #dddddd;
+    --white300 : #c1c1c1;
+    --white400 : #b3b3b3;
+    --white500 : #a4a4a4;
+
     --black : #000000;
-    --black100 : #000000;
-    --black200 : #000000;
-    --black300 : #000000;
-    --black400 : #000000;
-    --black500 : #000000;
+    --black100 : #252525;
+    --black200 : #454545;
+    --black300 : #656565;
+    --black400 : #858585;
+    --black500 : #999999;
 
     /* 기본 폰트 설정 */
     font-family: var(--mainEng-font), var(--mainKor-font);

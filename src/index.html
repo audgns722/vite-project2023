@@ -44,7 +44,15 @@
             </li>
           </ul>
         </nav>
-        <div class="header__nav__mobile"></div>
+        <div
+          class="header__nav__mobile"
+          id="headerToggle"
+          aria-controls="primary-menu"
+          aria-expanded="=false"
+          role="button"
+        >
+          <span></span>
+        </div>
       </div>
     </header>
     <!-- //header -->
@@ -62,7 +70,6 @@
             <span class="line"></span>
             <span class="line"></span>
           </div>
-
           <div class="intro__text">
             <div class="text">
               <div>It always</div>
@@ -71,26 +78,383 @@
             </div>
             <div class="img"></div>
           </div>
+
+          <div class="intro__lines bottom" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
         </div>
       </section>
       <!-- //intro -->
 
-      <section id="skill">skill</section>
+      <section id="skill">
+        <div class="skill__inner">
+          <h2 class="skill__title">challenge <em>나의 도전</em></h2>
+          <div class="skill__desc">
+            <div>
+              <span>1.</span>
+              <h3>목표 설정</h3>
+              <p>목표를 구체적 정하고 달성하고자 하는 기간과 결과를 파악합니다.</p>
+            </div>
+            <div>
+            <div>
+              <span>2.</span>
+              <h3>자기모니터링</h3>
+              <p>목표를 추적하고 진행 상황을 모니터링하는 방법을 설정합니다.</p>
+            </div>
+            <div>
+              <span>3.</span>
+              <h3>지속적인 학습</h3>
+              <p>목표를 향해 나아가면서 계속해서 새로운 지식을 습득하고 개인 발전을 위해 노력합니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- //skill -->
 
-      <section id="site">site</section>
+      <section id="site">
+        <div class="site__inner">
+            <div class="site__title">
+                Site Coding <em>나의 작업물</em>
+            </div>
+            <div class="site__wrap">
+                <div class="site__item s1">
+                    <span class="num">1. </span>
+                    <div class="text">
+                        <div>make</div>
+                        <div>site compliant width</div>
+                        <div>webstandard</div>
+                    </div>
+                    <h3 class="title">
+                        VITE를 이용한 사이트 제작
+                    </h3>
+                    <div class="btn">
+                        <a href="#">code</a>
+                        <a href="#">view</a>
+                    </div>
+                    <div class="info">
+                        <span>site coding</span>
+                        <span>production period : <em>two days</em></span>
+                        <span>use stack : <em>html5/css, css variable, vite</em></span>
+                    </div>
+                </div>
+                <div class="site__item s2">
+                    <span class="num">2. </span>
+                    <div class="text">
+                        <div>make</div>
+                        <div>site compliant width</div>
+                        <div>webstandard</div>
+                    </div>
+                    <h3 class="title">
+                        VITE를 이용한 사이트 제작
+                    </h3>
+                    <div class="btn">
+                        <a href="#">code</a>
+                        <a href="#">view</a>
+                    </div>
+                    <div class="info">
+                        <span>site coding</span>
+                        <span>production period : <em>two days</em></span>
+                        <span>use stack : <em>html5/css, css variable, vite</em></span>
+                    </div>
+                </div>
+                <div class="site__item s3">
+                    <span class="num">3. </span>
+                    <div class="text">
+                        <div>make</div>
+                        <div>site compliant width</div>
+                        <div>webstandard</div>
+                    </div>
+                    <h3 class="title">
+                        VITE를 이용한 사이트 제작
+                    </h3>
+                    <div class="btn">
+                        <a href="#">code</a>
+                        <a href="#">view</a>
+                    </div>
+                    <div class="info">
+                        <span>site coding</span>
+                        <span>production period : <em>two days</em></span>
+                        <span>use stack : <em>html5/css, css variable, vite</em></span>
+                    </div>
+                </div>
+                <div class="site__item s4">
+                    <span class="num">4. </span>
+                    <div class="text">
+                        <div>make</div>
+                        <div>site compliant width</div>
+                        <div>webstandard</div>
+                    </div>
+                    <h3 class="title">
+                        VITE를 이용한 사이트 제작
+                    </h3>
+                    <div class="btn">
+                        <a href="#">code</a>
+                        <a href="#">view</a>
+                    </div>
+                    <div class="info">
+                        <span>site coding</span>
+                        <span>production period : <em>two days</em></span>
+                        <span>use stack : <em>html5/css, css variable, vite</em></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
       <!-- //site -->
 
-      <section id="port">port</section>
+      <section id="port">
+        <div class="port__inner">
+          <div class="port__title">
+            portfolio <em>포폴 작업물</em>
+          </div>
+          <div class="port__wrap">
+            <div class="port__item p1">
+              <span class="num">01.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p2">
+              <span class="num">02.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p3">
+              <span class="num">03.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p4">
+              <span class="num">04.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p5">
+              <span class="num">05.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p6">
+              <span class="num">06.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p7">
+              <span class="num">07.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p8">
+              <span class="num">08.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p9">
+              <span class="num">09.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+            <div class="port__item p10">
+              <span class="num">10.</span>
+              <a href="#">
+                <img src="assets/img/portimg1.png" alt="포트폴리오이미지1">
+              </a>
+              <h3 class="title">리액트를 이용한 포트폴리오</h3>
+              <p class="desc">
+                리액트를 이용하여 포트폴리오 사이트를 만들었습니다.
+                디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다.
+                GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조합니다.
+                세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다.
+              </p>
+              <a class="link" href="#">사이트보기</a>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- //port -->
 
-      <section id="contact">contact</section>
+      <section id="contact">
+        <div class="contact__inner">
+          <h2 class="contact__title">Contact</h2>
+          <div class="contact__line" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="contact__text">
+            <div>
+              <a href="#">KAKAO : audgns722</a>
+            </div>
+            <div>
+              <a href="#">GITHUB : audgns722</a>
+            </div>
+            <div>
+              <a href="#">E-MAIL : audgns722@naver.com</a>
+            </div>
+          </div>
+          <div class="contact__line bottom" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+      </section>
       <!-- //contact -->
     </main>
     <!-- //main -->
 
-    <footer id="footer" role="contentinfo">footer</footer>
-    <!-- //footer -->
+    <footer id="footer" role="contentinfo">
+      <div class="footer__inner">
+          <h2 class="footer__text">
+              <div>audgns722</div>
+              <div>@MyeongHun</div>
+          </h2>
+          <div class="footer__info">
+              <div class="left">
+                  <div class="title">
+                      <a href="#">sign up</a>
+                  </div>
+                  <p class="desc">회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.</p>
+              </div>
+              <div class="right">
+                  <h3>social</h3>
+                  <ul>
+                      <li>
+                          <a href="#">youtube</a>
+                          <em>유튜브에 오시면 더 많은 강의를 볼 수 있습니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">github</a>
+                          <em>깃헙에 들어오시면 모든 소스를 볼 수 있습니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">tistory</a>
+                          <em>티스토리에 들어오시면 좋은 정보 볼 수 있습니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">gsap</a>
+                          <em>GSAP를 공부하시고 오면 도움이 됩니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">vite</a>
+                          <em>비트 강의도 곧 오픈 예정입니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">react</a>
+                          <em>리액트 강의도 곧 오픈 예정입니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">vue</a>
+                          <em>뷰 강의도 곧 오픈 예정입니다.</em>
+                      </li>
+                      <li>
+                          <a href="#">next</a>
+                          <em>넥스트 강의도 곧 오픈 예정입니다.</em>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="footer__right">
+              &copy; 2023 MyeongHun<br />
+              이 사이트는 비트를 이용하여 제작하였습니다.
+          </div>
+      </div>
+  </footer>
+  <!-- //footer -->
 
     <script type="module" src="assets/js/main.js"></script>
   </body>

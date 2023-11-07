@@ -1,1 +1,111 @@
-.contact {}
+#contact {
+    height: 100vh;
+}
+.contact__inner {
+    padding: 16px;
+}
+.contact__title {
+    top: 70px;
+    left: 0;
+    width: 48%;
+    height: 4.9vw;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: var(--mainEng-font);
+    color: var(--mainFont-color);
+    border-bottom: 5px solid var(--subBg500);
+}
+.contact__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--subBg400);
+    height: 30vh;
+}
+.contact__text a {
+    padding: 15px;
+    font-size: 2vw;
+    font-family: var(--mainEng-font);
+    color: var(--mainFont-color);
+}
+.contact__text a:hover {
+    font-size: 2.1vw;
+}
+
+
+
+.contact__line {
+    display: block;
+    width: 100%;
+}
+
+.contact__line .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--subBg400);
+    margin-bottom: 0.5vw;
+}
+.contact__line .line:nth-child(1) {
+    background-color: #7c8eb4;    
+    height: 1px;
+}
+.contact__line .line:nth-child(2) {
+    background-color: #7282a5;
+    height: 2px;
+}
+.contact__line .line:nth-child(3) {
+    background-color: #677697;
+    height: 3px;
+}
+.contact__line .line:nth-child(4) {
+    background-color: #576481;
+    height: 4px;
+}
+.contact__line .line:nth-child(5) {
+    background-color: #55627e;
+    height: 5px;
+}
+.contact__line .line:nth-child(6) {
+    background-color: #4b5770;
+    height: 6px;
+}
+.contact__line .line:nth-child(7) {
+    background-color: #434d63;
+    height: 7px;
+}
+.contact__line.bottom {
+    margin-top: 10px;
+}
+.contact__line.bottom .line:nth-child(7) {
+    background-color: #7c8eb4;    
+    height: 1px;
+}
+.contact__line.bottom .line:nth-child(6) {
+    background-color: #7282a5;
+    height: 2px;
+}
+.contact__line.bottom .line:nth-child(5) {
+    background-color: #677697;
+    height: 3px;
+}
+.contact__line.bottom .line:nth-child(4) {
+    background-color: #576481;
+    height: 4px;
+}
+.contact__line.bottom .line:nth-child(3) {
+    background-color: #55627e;
+    height: 5px;
+}
+.contact__line.bottom .line:nth-child(2) {
+    background-color: #4b5770;
+    height: 6px;
+}
+.contact__line.bottom .line:nth-child(1) {
+    background-color: #434d63;
+    height: 7px;
+    margin-top: 5px;
+}
