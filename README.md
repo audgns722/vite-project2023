@@ -20,6 +20,13 @@
 ## 구현 기능
 
 - 구글 폰트 적용
+- smooth 효과 적용 : [Link](https://lenis.studiofreight.com/)
+- 자바스크립트 메뉴 클릭 이동 효과 적용
+- GSAP를 이용한 가로 효과
+- JavaScript 모듈 기능 적용
+- 웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
+- Vite 빌드 작업
+- Netilfy 배포 작업
 
 ## 트러블 슈팅
 
@@ -35,6 +42,6 @@
 윈도우 자격증명 > git 아이디 변경
 `git remote set-url origin https://github.com@audgns722/vite-project2023.git` > `git push -u origin master`
 깃헙 패스워드 입력을 하라는 창이 나오고 입력을 하시면 본인의 깃주소에 소스코드가 올라갑니다.
-인증이 끝난 후부터는 git push만 하면 기존의 세팅한 주소로 바로 푸쉬가 됩니다.1
+인증이 끝난 후부터는 git push만 하면 기존의 세팅한 주소로 바로 푸쉬가 됩니다.
 
 </details>
