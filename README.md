@@ -16,6 +16,8 @@
 ## 설치
 
 `npm run dev` 실행하기
+`npm i @studio-freight/lenis` lenis 설치
+`npm i gsap` gsap 설치
 
 ## 구현 기능
 
