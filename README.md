@@ -16,6 +16,7 @@
 ## 설치
 
 `npm run dev` 실행하기
+`npm i @studio-freight/lenis` lenis 설치
 
 ## 구현 기능
 
@@ -44,4 +45,20 @@
 깃헙 패스워드 입력을 하라는 창이 나오고 입력을 하시면 본인의 깃주소에 소스코드가 올라갑니다.
 인증이 끝난 후부터는 git push만 하면 기존의 세팅한 주소로 바로 푸쉬가 됩니다.
 
+</details>
+
+<details>
+<summary>Whitespace 에러</summary>
+
+<!-- summary 아래 한칸 공백 두어야함 -->
+
+## Whitespace 에러(해결) :
+
+# push 중 warning
+
+[해결!](https://velog.io/@wnguswn7/Git-Bash-warning-in-the-working-copy-of-.gitignore-LF-will-be-replaced-by-CRLF-the-next-time-Git-touches-it)  
+Git의 core.autocrlf 라는 기능을 켜서 이를 자동 변환 해주도록 하면 된다.
+
+- `git config --global core.autocrlf true` // 시스템 전체에 적용
+- `git config core.autocrlf true` // 해당 프로젝트에만 적용
 </details>
